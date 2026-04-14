@@ -1,0 +1,148 @@
+<svg width="100%" viewBox="0 0 680 620" xmlns="http://www.w3.org/2000/svg" style="background:#fff; font-family:system-ui,sans-serif">
+<title>ATTiny Focus Timer - Circuit Schematic</title>
+<desc>Circuit schematic showing ATtiny1614 connected to 10 WS2812B LEDs, 4 buttons, and a piezo buzzer.</desc>
+
+<!-- Power rails -->
+<line x1="40" y1="40" x2="640" y2="40" stroke="#c03030" stroke-width="1.5"/>
+<text x="50" y="32" font-size="12" fill="#c03030">VCC (+5V)</text>
+<line x1="40" y1="580" x2="640" y2="580" stroke="#555" stroke-width="1.5"/>
+<text x="50" y="600" font-size="12" fill="#555">GND</text>
+
+<!-- ATtiny1614 -->
+<rect x="230" y="180" width="200" height="280" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="330" y="210" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#085041">ATtiny1614</text>
+<circle cx="250" cy="180" r="5" fill="none" stroke="#0F6E56" stroke-width="0.5"/>
+
+<!-- Left pins -->
+<text x="244" y="248" font-size="12" dominant-baseline="central" fill="#085041">VCC</text>
+<text x="244" y="278" font-size="12" dominant-baseline="central" fill="#085041">PA4</text>
+<text x="244" y="308" font-size="12" dominant-baseline="central" fill="#085041">PA5</text>
+<text x="244" y="338" font-size="12" dominant-baseline="central" fill="#085041">PA6</text>
+<text x="244" y="368" font-size="12" dominant-baseline="central" fill="#085041">PA7</text>
+<text x="244" y="398" font-size="12" dominant-baseline="central" fill="#085041">PB3</text>
+<text x="244" y="428" font-size="12" dominant-baseline="central" fill="#085041">PB2</text>
+
+<!-- Right pins -->
+<text x="416" y="248" text-anchor="end" font-size="12" dominant-baseline="central" fill="#085041">GND</text>
+<text x="416" y="278" text-anchor="end" font-size="12" dominant-baseline="central" fill="#085041">PA0 (UPDI)</text>
+<text x="416" y="308" text-anchor="end" font-size="12" dominant-baseline="central" fill="#085041">PA1</text>
+<text x="416" y="338" text-anchor="end" font-size="12" dominant-baseline="central" fill="#085041">PA2</text>
+<text x="416" y="368" text-anchor="end" font-size="12" dominant-baseline="central" fill="#085041">PA3</text>
+<text x="416" y="398" text-anchor="end" font-size="12" dominant-baseline="central" fill="#085041">PB0</text>
+<text x="416" y="428" text-anchor="end" font-size="12" dominant-baseline="central" fill="#085041">PB1</text>
+
+<!-- Pin stubs left -->
+<line x1="200" y1="248" x2="230" y2="248" stroke="#333" stroke-width="1"/>
+<line x1="200" y1="338" x2="230" y2="338" stroke="#333" stroke-width="1"/>
+<line x1="200" y1="398" x2="230" y2="398" stroke="#333" stroke-width="1"/>
+<line x1="200" y1="428" x2="230" y2="428" stroke="#333" stroke-width="1"/>
+
+<!-- Pin stubs right -->
+<line x1="430" y1="248" x2="460" y2="248" stroke="#333" stroke-width="1"/>
+<line x1="430" y1="278" x2="460" y2="278" stroke="#333" stroke-width="1"/>
+<line x1="430" y1="368" x2="520" y2="368" stroke="#333" stroke-width="1"/>
+<line x1="430" y1="398" x2="460" y2="398" stroke="#333" stroke-width="1"/>
+<line x1="430" y1="428" x2="460" y2="428" stroke="#333" stroke-width="1"/>
+
+<!-- VCC connection -->
+<path d="M200 248 L200 40" fill="none" stroke="#c03030" stroke-width="1"/>
+<circle cx="200" cy="40" r="3" fill="#c03030"/>
+
+<!-- GND connection -->
+<path d="M460 248 L460 580" fill="none" stroke="#555" stroke-width="1"/>
+<circle cx="460" cy="580" r="3" fill="#555"/>
+
+<!-- Decoupling cap -->
+<line x1="160" y1="70" x2="160" y2="40" stroke="#c03030" stroke-width="1"/>
+<circle cx="160" cy="40" r="3" fill="#c03030"/>
+<line x1="152" y1="70" x2="168" y2="70" stroke="#333" stroke-width="2"/>
+<line x1="152" y1="78" x2="168" y2="78" stroke="#333" stroke-width="2"/>
+<line x1="160" y1="78" x2="160" y2="100" stroke="#555" stroke-width="1"/>
+<line x1="152" y1="100" x2="168" y2="100" stroke="#555" stroke-width="1.5"/>
+<line x1="155" y1="104" x2="165" y2="104" stroke="#555" stroke-width="1"/>
+<line x1="157" y1="108" x2="163" y2="108" stroke="#555" stroke-width="0.5"/>
+<text x="175" y="82" font-size="12" dominant-baseline="central" fill="#333">C1 100nF</text>
+
+<!-- Buzzer -->
+<line x1="200" y1="338" x2="100" y2="338" stroke="#333" stroke-width="1"/>
+<circle cx="100" cy="338" r="22" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<circle cx="100" cy="338" r="14" fill="none" stroke="#854F0B" stroke-width="0.5"/>
+<text x="100" y="340" text-anchor="middle" font-size="12" dominant-baseline="central" fill="#633806">BZ</text>
+<text x="100" y="372" font-size="12" fill="#633806">Piezo</text>
+<line x1="100" y1="360" x2="100" y2="580" stroke="#555" stroke-width="1"/>
+<circle cx="100" cy="580" r="3" fill="#555"/>
+
+<!-- Buttons right side -->
+<text x="505" y="387" font-size="12" dominant-baseline="central" fill="#333">SW1 (10 min)</text>
+<text x="505" y="417" font-size="12" dominant-baseline="central" fill="#333">SW2 (20 min)</text>
+
+<line x1="460" y1="398" x2="475" y2="398" stroke="#333" stroke-width="1"/>
+<circle cx="475" cy="398" r="2" fill="#333"/>
+<line x1="475" y1="398" x2="492" y2="392" stroke="#333" stroke-width="1"/>
+<circle cx="495" cy="398" r="2" fill="#333"/>
+<line x1="495" y1="398" x2="500" y2="398" stroke="#555" stroke-width="1"/>
+
+<line x1="460" y1="428" x2="475" y2="428" stroke="#333" stroke-width="1"/>
+<circle cx="475" cy="428" r="2" fill="#333"/>
+<line x1="475" y1="428" x2="492" y2="422" stroke="#333" stroke-width="1"/>
+<circle cx="495" cy="428" r="2" fill="#333"/>
+<line x1="495" y1="428" x2="500" y2="428" stroke="#555" stroke-width="1"/>
+
+<!-- Buttons left side -->
+<line x1="200" y1="428" x2="130" y2="428" stroke="#333" stroke-width="1"/>
+<line x1="200" y1="398" x2="130" y2="398" stroke="#333" stroke-width="1"/>
+
+<circle cx="130" cy="398" r="2" fill="#333"/>
+<line x1="130" y1="398" x2="113" y2="392" stroke="#333" stroke-width="1"/>
+<circle cx="110" cy="398" r="2" fill="#333"/>
+<line x1="110" y1="398" x2="60" y2="398" stroke="#555" stroke-width="1"/>
+<text x="52" y="387" text-anchor="end" font-size="12" dominant-baseline="central" fill="#333">SW4 (60 min)</text>
+
+<circle cx="130" cy="428" r="2" fill="#333"/>
+<line x1="130" y1="428" x2="113" y2="422" stroke="#333" stroke-width="1"/>
+<circle cx="110" cy="428" r="2" fill="#333"/>
+<line x1="110" y1="428" x2="60" y2="428" stroke="#555" stroke-width="1"/>
+<text x="52" y="417" text-anchor="end" font-size="12" dominant-baseline="central" fill="#333">SW3 (30 min)</text>
+
+<!-- Button GND right -->
+<line x1="500" y1="398" x2="500" y2="510" stroke="#555" stroke-width="1"/>
+<line x1="500" y1="428" x2="500" y2="510" stroke="#555" stroke-width="1"/>
+<line x1="500" y1="510" x2="500" y2="580" stroke="#555" stroke-width="1"/>
+<circle cx="500" cy="580" r="3" fill="#555"/>
+
+<!-- Button GND left -->
+<line x1="60" y1="398" x2="60" y2="510" stroke="#555" stroke-width="1"/>
+<line x1="60" y1="428" x2="60" y2="510" stroke="#555" stroke-width="1"/>
+<line x1="60" y1="510" x2="60" y2="580" stroke="#555" stroke-width="1"/>
+<circle cx="60" cy="580" r="3" fill="#555"/>
+
+<text x="500" y="460" font-size="11" fill="#999">(internal pull-ups)</text>
+<text x="60" y="460" font-size="11" fill="#999">(internal pull-ups)</text>
+
+<!-- WS2812B strip -->
+<line x1="520" y1="368" x2="520" y2="170" stroke="#333" stroke-width="1"/>
+<line x1="520" y1="170" x2="520" y2="155" stroke="#333" stroke-width="1"/>
+<rect x="515" y="140" width="10" height="15" rx="1" fill="none" stroke="#333" stroke-width="0.8"/>
+<text x="534" y="150" font-size="12" dominant-baseline="central" fill="#333">R1 330Ω</text>
+<line x1="520" y1="140" x2="520" y2="125" stroke="#333" stroke-width="1"/>
+
+<rect x="480" y="70" width="160" height="50" rx="8" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text x="560" y="88" text-anchor="middle" font-size="14" font-weight="500" dominant-baseline="central" fill="#27500A">10× WS2812B</text>
+<text x="560" y="106" text-anchor="middle" font-size="12" dominant-baseline="central" fill="#3B6D11">NeoPixel strip</text>
+
+<line x1="520" y1="125" x2="520" y2="74" stroke="#333" stroke-width="1"/>
+<polygon points="520,74 516,82 524,82" fill="#333"/>
+<text x="528" y="130" font-size="11" dominant-baseline="central" fill="#999">DIN</text>
+
+<line x1="600" y1="70" x2="600" y2="40" stroke="#c03030" stroke-width="1"/>
+<circle cx="600" cy="40" r="3" fill="#c03030"/>
+<line x1="600" y1="120" x2="600" y2="580" stroke="#555" stroke-width="1"/>
+<circle cx="600" cy="580" r="3" fill="#555"/>
+
+<!-- UPDI header -->
+<rect x="480" y="240" width="120" height="56" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="540" y="260" text-anchor="middle" font-size="14" font-weight="500" dominant-baseline="central" fill="#3C3489">UPDI header</text>
+<text x="540" y="280" text-anchor="middle" font-size="12" dominant-baseline="central" fill="#534AB7">VCC / UPDI / GND</text>
+<line x1="460" y1="278" x2="480" y2="278" stroke="#333" stroke-width="1"/>
+
+</svg>
