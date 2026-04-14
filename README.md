@@ -109,6 +109,7 @@ For quick bench testing, uncomment the shorter timer values (1 / 2 / 3 / 5 min) 
 
 The project includes a 3D-printed case designed to house the PCB, LEDs, and buttons in a compact, desk-friendly form factor. The STL files are located in the `case/` folder of this repository. They were designed for FDM printing with no supports needed. There are two types of top case formats. One of them is a one piece design (you have to keep in mind that in order for the LEDs light to go through you have to print the case in bright colors, ideally in white) and the other one that have a cutout for LEDs. The second one lets you print the case in any color because it have a LED COVER that you can print in transparent or any bright color.
 If you'd like to tweak the design, the original CAD is included as well (in .f3z format).
+An external link for the case can also be found here : https://www.printables.com/model/1689049-attiny-focus-timer-case
 
 ## PCB
 
