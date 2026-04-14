@@ -4,6 +4,10 @@ A minimal, distraction-free focus timer built around the **ATtiny1614** microcon
 
 Created by **@marius.builds**
 
+![IMG_0831](https://github.com/user-attachments/assets/8b5d8897-bc18-4b02-b994-661edc657f1b) ![IMG_0681](https://github.com/user-attachments/assets/a330994d-96a1-42e6-8cc7-fd4c41ba3db9)
+
+
+
 ---
 
 ## How It Works
@@ -31,6 +35,9 @@ The timer cycles through four states:
 | Tactile push buttons | 4 | Connected to PB0–PB3, using internal pull-ups |
 | Passive piezo buzzer | 1 | Driven from PA6 via `tone()` |
 
+![IMG_0651](https://github.com/user-attachments/assets/a4ae9515-0198-4b23-a78d-e278af873c8c)
+
+
 ### Pin Mapping
 
 ```
@@ -53,7 +60,7 @@ PB3  →  Button 4  (60 min)
 
 1. Install **megaTinyCore** via the Arduino IDE Boards Manager.
 2. Select **ATtiny1614** as the target board.
-3. Set the programmer to **SerialUPDI** (or whichever UPDI method you use).
+3. Set the programmer to **CH340 UPDI** (or whichever UPDI method you use).
 4. Open `ATTiny-FocusTimer-V2_1.ino` and upload.
 
 ### Configuration
@@ -99,9 +106,8 @@ For quick bench testing, uncomment the shorter timer values (1 / 2 / 3 / 5 min) 
 
 ## Enclosure
 
-The project includes a 3D-printed case designed to house the PCB, LEDs, and buttons in a compact, desk-friendly form factor. The STL files are located in the `case/` folder of this repository. They were designed for FDM printing with no supports needed.
-
-If you'd like to tweak the design, the original CAD source file is included as well.
+The project includes a 3D-printed case designed to house the PCB, LEDs, and buttons in a compact, desk-friendly form factor. The STL files are located in the `case/` folder of this repository. They were designed for FDM printing with no supports needed. There are two types of top case formats. One of them is a one piece design (you have to keep in mind that in order for the LEDs light to go through you have to print the case in bright colors, ideally in white) and the other one that have a cutout for LEDs. The second one lets you print the case in any color because it have a LED COVER that you can print in transparent or any bright color.
+If you'd like to tweak the design, the original CAD is included as well (in .f3z format).
 
 ## PCB
 
