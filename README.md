@@ -87,7 +87,7 @@ For quick bench testing, uncomment the shorter timer values (1 / 2 / 3 / 5 min) 
          │           any button             │
          ▼                                  │
       ┌──────┐   button press   ┌─────────┐ │
-      │ IDLE │ ───────────────▶ │ RUNNING │ │
+      │ IDLE │ ───────────────▶│ RUNNING  │ │
       └──────┘                  └────┬────┘ │
          ▲                          │       │
          │ any button        timer done     │
@@ -109,18 +109,6 @@ Full fabrication files are provided in the `pcb/` folder so you can order your o
 
 - **Gerber files** — ready to upload to JLCPCB, PCBWay, or any other fab house.
 - **BOM (Bill of Materials)** — a spreadsheet listing every component with values, footprints, and reference designators.
-
-## Repository Structure
-
-```
-├── ATTiny-FocusTimer-V2_1.ino   # Arduino sketch (main firmware)
-├── case/                        # 3D-printable enclosure (STL + source)
-├── pcb/
-│   ├── gerbers/                 # Fabrication files (Gerber + drill)
-│   └── BOM.csv                  # Bill of Materials
-|   ├── schematic.svg                # Circuit schematic
-└── README.md
-```
 
 ## License
 
