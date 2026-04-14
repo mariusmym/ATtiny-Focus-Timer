@@ -109,6 +109,7 @@ Full fabrication files are provided in the `pcb/` folder so you can order your o
 
 - **Gerber files** — ready to upload to JLCPCB, PCBWay, or any other fab house.
 - **BOM (Bill of Materials)** — a spreadsheet listing every component with values, footprints, and reference designators.
+- **Schematic**
 
 ## License
 
