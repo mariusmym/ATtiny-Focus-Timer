@@ -12,7 +12,7 @@ The timer cycles through four states:
 
 | State | LEDs | Sound |
 |---|---|---|
-| **Idle** | All LEDs glow cyan at low brightness | — |
+| **Idle** | All LEDs glow white at low brightness | — |
 | **Running** | Green progress bar fills one LED at a time | — |
 | **Completed** | All LEDs pulse green (20 s grace period) | Finish melody (bee-beep-bee-beep) |
 | **Alerting** | All LEDs pulse red | Short beep every 2 seconds |
