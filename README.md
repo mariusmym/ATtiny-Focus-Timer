@@ -122,4 +122,5 @@ Full fabrication files are provided in the `pcb/` folder so you can order your o
 
 ## License
 
+This project is licensed under the MIT License.
 Feel free to use, modify, and share. Attribution appreciated.
