@@ -4,7 +4,8 @@ A minimal, distraction-free focus timer built around the **ATtiny1614** microcon
 
 Created by **@marius.builds**
 
-![IMG_0831](https://github.com/user-attachments/assets/8b5d8897-bc18-4b02-b994-661edc657f1b) ![IMG_0681](https://github.com/user-attachments/assets/a330994d-96a1-42e6-8cc7-fd4c41ba3db9)
+![FocusTimer](https://github.com/user-attachments/assets/82448108-dd86-4f42-96b7-4c42d907bd19)
+
 
 
 
