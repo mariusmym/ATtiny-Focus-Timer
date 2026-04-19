@@ -1,6 +1,6 @@
 # ATTiny Focus Timer
 
-A minimal, distraction-free focus timer built around the **ATtiny1614** microcontroller. Press a button, pick a duration, and get back to work — 10 WS2812B LEDs show your progress as a filling bar, then gently pulse and beep when time is up.
+A minimal, distraction-free focus timer built around the **ATtiny1614** microcontroller. Press a button, pick a duration, and get back to work - 10 WS2812B LEDs show your progress as a filling bar, then gently pulse and beep when time is up.
 
 Created by **@marius.builds**
 
